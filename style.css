@@ -118,7 +118,9 @@ line-height:0.95em;
 }
 
 .itemdate{
-  text-align: right;
+  text-align: center;
+  line-height:0.6em;
+  margin: 0.05in 0 0 0;
 }
 
 .itemtext{
