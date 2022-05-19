@@ -35,14 +35,14 @@
 }
 
 .subsubsection{
-  padding: 0 0 0.05in 0;
+  padding: 0in 0 0.05in 0;
 }
 
 body{
   font-family: 'Source Sans Pro';
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5{
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -72,6 +72,12 @@ h4 {
   margin: 0 0 0 0in;
 }
 
+h5 {
+  font-size:11pt;
+  font-variant: small-caps;
+  font-weight: 900;
+  margin: 0 0 0 0in;
+}
 p, li, ul{
   font-family: 'Source Sans Pro';
 }
