@@ -1,5 +1,5 @@
 
-.canvas-container {
+.page {
   margin: 0 auto; /* for centering, feel free to use flexbox or some other method*/
   box-sizing: border-box;
   padding: 0in; /* controls margins */
@@ -7,11 +7,7 @@
   height: 11in;
   background-color: white;
   box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0.7);
-}
-
-.grid {
   display: grid;
-  height: 11in;
   grid-template-columns: 38fr 62fr;
 }
 
@@ -40,6 +36,8 @@
 
 body{
   font-family: 'Source Sans Pro';
+  font-size: 11pt;
+  line-height:1.2em;
 }
 
 h1, h2, h3, h4, h5{
@@ -49,7 +47,7 @@ h1, h2, h3, h4, h5{
 h1 {
   font-size: 32pt;
   font-variant: small-caps;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 0.8em;
   margin: 0in 0in 0in 0in;
 }
@@ -57,16 +55,18 @@ h1 {
 h2 {
   font-variant: small-caps;
   font-weight: 700;
-  margin: 0in 0 0.025in 0in;
+  margin: 0in 0 0.05in 0in;
 }
 
 h3 {
+  font-size:14pt;
   font-variant: small-caps;
   font-weight: 700;
-  margin: 0in 0in 0in 0in;
+  margin: 0in 0in 0.025in 0in;
 }
 
 h4 {
+  font-size:12pt;
   font-variant: small-caps;
   font-weight: 700;
   margin: 0 0 0 0in;
@@ -78,15 +78,27 @@ h5 {
   font-weight: 900;
   margin: 0 0 0 0in;
 }
+
+footer{
+  font-size:9pt;
+  margin: 8.5in 0 0 0 ;
+}
+
+.contacts{
+  font-family: 'Ubuntu', sans-serif;
+  font-variant: small-caps;
+  font-weight: 400;
+  margin: 0 0 0 0in;
+
+}
+
 p, li, ul{
   font-family: 'Source Sans Pro';
 }
 
 p {
-  font-size:11;
   font-weight: 400;
   margin: 0in 0in 0in 0in;
-  line-height:1.2em;
 }
 
 li{
@@ -94,6 +106,10 @@ li{
   margin: 0 0 0 0.2in;
 }
 
+hr{
+  margin-top:0.04in;
+  margin-bottom:0.01in;
+}
 
 a {
 color: #000;
@@ -113,14 +129,15 @@ line-height:0.95em;
 
 .dateditem{
   display: grid;
-  grid-template-columns: 9fr 91fr;
+  grid-template-columns: 7fr 93fr;
   gap: 0.1in;
 }
 
 .itemdate{
   text-align: center;
-  line-height:0.6em;
-  margin: 0.05in 0 0 0;
+  vertical-align: middle;
+  line-height:11pt;
+  margin: 0.0in 0 0.02in 0;
 }
 
 .itemtext{

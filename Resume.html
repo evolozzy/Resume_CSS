@@ -3,31 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-  <link rel="stylesheet" href="style.css">
-  <title></title>
+  <link rel="stylesheet" href="resumestyle.css">
+  <title>Kiratli Resume</title>
 </head>
   
 <body>
-  <div class="canvas-container">
-    <div class="grid">
-      <div class="col-l">
-	<div class="section" id="Full name">
-	<h1>Ozan Kiratli</h1>
-	</div>
-	<div class="section" id="Contact and Social">
-	<i class="fa fa-phone"></i> 215 260 3054 <br>
-	<a href="mailto:kiratli@sas.upenn.edu" > <i class="fa fa-envelope"></i> kiratli@sas.upenn.edu</a> <br>
-	<a href="https://github.com/evolozzy"><i class="fa fa-github"></i> evolozzy</a> <br>
-	<a href="https://www.linkedin.com/in/ozankiratli"><i class="fa fa-linkedin"></i> ozankiratli</a>
-</div>
-	<div class="section" id="Education">
+  <div class="page">
+    <!-- BEGINNING OF PAGE -->
+    <div class="col-l">
+      <!-- BEGINNING OF LEFT COLUMN -->
+      
+      <!-- NAME -->
+      <div class="section" id="Full name"><h1>Ozan Kiratli</h1></div>
+      
+      <!-- CONTACT AND SOCIAL -->
+      <div class="section" id="Contact and Social">
+	<div class="contacts">
+	  <i class="fa fa-phone"></i> Phone Number <br>
+	  <a href="mailto:kiratli@sas.upenn.edu" > <i class="fa fa-envelope"></i> kiratli@sas.upenn.edu</a> <br>
+	  <a href="https://github.com/evolozzy"><i class="fa fa-github"></i> evolozzy</a> <br>
+	  <a href="https://www.linkedin.com/in/ozankiratli"><i class="fa fa-linkedin"></i> ozankiratli</a></div>
+      </div>
+      
+      <!-- EDUCATION -->
+      <div class="section" id="Education">
 	<h2>Education</h2>
+
 	<div class="subsubsection" id="PhD">
 	  <b>PhD in Biology</b> (Expected 2022) <br>
 	  University of Pennsylvania (UPenn)<br> 
@@ -36,61 +42,72 @@
 	</div>
 	 
 	<div class="subsubsection" id="MS">
-	<b>MS in Biology</b> (2016) <br>
+	  <b>MS in Biology</b> (2016) <br>
 	  Middle East Technical University (METU)<br>
 	  Ankara, Turkey<br>
 	  <i>Conc: Evolutionary Biology</i>
 	</div>
 
 	<div class="subsubsection" id="BS">
-	<b>BS in Biology</b> (2013)<br> 
-	Middle East Technical University<br>
-	Ankara, Turkey<br>
-	<i>Minor in Physics</i>
+	  <b>BS in Biology</b> (2013)<br> 
+	  Middle East Technical University<br>
+	  Ankara, Turkey<br>
+	  <i>Minor in Physics</i>
 	</div>
-</div>
-
-	<div class="section" id="Publications">
+      </div>
+      
+      <!-- PUBLICATIONS -->
+      <div class="section" id="Publications">
 	<h2>Selected Publication</h2>
 	Kiratli, O., Rudman, S. M., Torija, E., Babore, Y., Goldfischer, A., & Schmidt, P. (n.d.). Migration-associated epistasis can facilitate adaptive response in <i>Drosophila melanogaster</i>. (In prep).
-	</div>
-
-	<div class="section" id="Skills">
+      </div>
+      
+      <!-- SKILLS --> 
+      <div class="section" id="Skills">
+	<!-- BEGINNING OF SKILLS -->
 	<h2>Skills</h2>
 
+        <!-- ANALYSIS SKILLS -->
 	<div class="subsection" id="Analysis Skills">
 	  <h3>Analysis Skills</h3>
 	  <li>NGS analysis: Experience using trimming, aligning, cleaning tools, designing custom pipelines and tools.</li>
 	  <li>Phylogenetics: Building phylogenetic trees with various methods (BEAST, Neighbor Joining etc.).</li>
 	  <li>Clustering and model fitting: PCA, MDS, linear models.</li>
 	</div>
+
+	<!-- COMPUTER SKILLS -->
 	<div class="subsection" id="Computer Skills">
 	  <h3>Computer Skills</h3>
-	<div class="skillgrid">
-	  <div class="column">
-	    <h4>Coding</h4>
-	    <li>R</li>
-	    <li>Bash</li>
-	    <li>Python</li>
-	    <li>awk</li>
-	    <li>C++</li>
-	    <li>julia</li>
+	  <div class="skillgrid">
+	    <div class="column">
+	      <h4>Coding</h4>
+	      <li>R</li>
+	      <li>Bash</li>
+	      <li>Python</li>
+	      <li>awk</li>
+	      <li>C++</li>
+	      <li>julia</li>
+	    </div>
+	    <div class="column">
+	      <h4>Productivity</h4>
+	      <li>git</li>
+	      <li>LaTeX</li>
+	      <li>Inkscape</li>
+	      <li>GIMP</li>
+	      <li>Blender</li>
+	      <li>OBS</li>
+	    </div>
 	  </div>
-	  <div class="column">
-	    <h4>Productivity</h4>
-	    <li>git</li>
-	    <li>LaTeX</li>
-	    <li>Inkscape</li>
-	    <li>GIMP</li>
-	    <li>Blender</li>
-	    <li>OBS</li>
-	  </div>
 	</div>
+	
+	<!-- LAB SKILLS -->
+	<div class="subsection" id="Lab Skills">
+	  <h3>Lab Skills</h3>
+	  <li>Maintaining <i>Drosophila</i> stocks and populations, collecting wild flies, and manipulating populations.</li>
+	  <!-- <li>Basic genetic and wetlab techniques.</li> -->
+	  <li>Designing, building, managing, and conducting large scale experiments.</li>
 	</div>
-
-
-	</div>
-
+	
 	<!--
 	<h3>Coding Skills</h3>
 	  <div class="skillbox">
@@ -114,77 +131,101 @@
 	    <div class="level" style="width: 40%;"></div>
 	    </div></div>
 	-->
+
+        <!-- END OF SKILLS SECTION -->
       </div>
-      <div class="col-r">
+      
+      <!-- END OF LEFT COLUMN -->
+    </div>
+      
+    <div class="col-r">
+      <!-- BEGINNING OF RIGHT COLUMN -->
 
-	<div class="section" id="Summary">
-        <h2>Summary</h2>
-	<p>Evolutionary biologist with extensive experience in genomic analysis of Next Generation Sequencing (NGS) data. Strong written and oral communication skills complemented with advanced data visualization expertise. Focused on applying science to real world problems.
-	</p>
-	</div>
-	<div class="section" id="Experience">
+      <!-- SUMMARY -->
+      <div class="section" id="Summary">
+	<h2>Summary</h2>
+	<p>Evolutionary biologist with extensive experience in genomic analysis of Next Generation Sequencing (NGS) data and pipeline development, as well as designing, conducting, and managing large scale experiments. Broad range of computing skills with the ability to adopt new tools, languages, and environments quickly. Creative thinker with strong written and oral communication skills complemented with advanced data visualization expertise. Focused on applying science to real-world problems.</p>
+      </div>
+
+      <!-- EXPERIENCE  -->
+      <div class="section" id="Experience">
 	<h2>Experience</h2>
-
+	
+	<!-- Open a subsection for each item and add a dated item inside -->
+	<!-- Use subsubsection for explanations and projects -->
+	<!-- Use h5 for project titles -->
+	
+	<!--1) UPENN -->
 	<div class="subsection" id="RATA-UPenn">
-	<div class="dateditem">
-	  <div class="itemdate">2022<hr>2016</div>
-	  <div class="itemtext">
-	    <h4>Research and Teaching Assistant</h4>
-	    <b>Department of Biology, UPenn</b><br>
-	    <div class="subsubsection">
-	      <p>Designed, managed, and conducted 2 major experiments with <i>Drosophila melanogaster</i>; supervised 7 students in various projects; taught for 9 semesters rotating between 3 classes in person and online.</p></div>
-	    <div class="subsubsection" id="Migration2018">
-	      <h5>Project: Effects of Migration on Rapid Adaptation</h5>
-	    <li>Conducted a large scale research project on the ecological importance of migration on epistatic interactions and rapid adaptation with implications in conservation biology as part of the efforts to save species from extinction.</li>
-	    <li>Devised custom pipelines and tools to analyze poolseq samples sequenced with NGS.</li>
-	    <li>Prepared, maintained, handled, and manipulated large number of lines and populations of <i>D. melanogaster</i>.</li>
-	    <li>Designed and constructed phenotypic assays, collected data, performed statistical analysis, and visualized the results.</li>
-	    <li>Supervised 3 undergraduate students.</li>
-	    </div>
+	  <div class="dateditem">
+	    <div class="itemdate">2022<hr>2016</div>
+	    <div class="itemtext">
+	      <h4>Research and Teaching Assistant</h4>
+	      <i>Department of Biology, UPenn</i><br>
+	      <div class="subsubsection" id="UPenn RATA Explanation">
+		<p>Designed, managed, and conducted 2 major experiments with <i>Drosophila melanogaster</i>; supervised 7 students in various projects; taught for 9 semesters rotating between 3 classes in person and online.</p>
+	      </div>
+	      <div class="subsubsection" id="Migration2018">
+		<h5>Project: Effects of Migration on Rapid Adaptation</h5>
+		<li>Conducted a large scale research project on the ecological importance of migration on epistatic interactions and rapid adaptation with implications in conservation biology as part of the efforts to save species from extinction.</li>
+		<li>Devised custom pipelines and tools to analyze poolseq samples sequenced with NGS.</li>
+		<li>Prepared, maintained, handled, and manipulated large number of lines and populations of <i>D. melanogaster</i>.</li>
+		<li>Designed and constructed phenotypic assays, collected data, performed statistical analysis, and visualized the results.</li>
+		<li>Supervised 3 undergraduate students.</li>
+	      </div>
 
-	    <div class="subsubsection" id="Dispersal2019">
-	      <h5>Project: Genetic Basis for Dispersal Behavior</h5>
-	    <li>Constructed wooden and mesh structures to connect 15m-apart mesocosms for an outdoor experiment.</li>
-	    <li>Designed and constructed custom phenotypic assays, collected data, performed statistical analysis, and visualized the results.</li>
-	    <li>Supervised 2 undergraduate students.</li>
-	    </div>
+	      <div class="subsubsection" id="Dispersal2019">
+		<h5>Project: Genetic Basis for Dispersal Behavior</h5>
+		<li>Constructed wooden and mesh structures to connect 15m-apart mesocosms for an outdoor experiment.</li>
+		<li>Designed and constructed custom phenotypic assays, collected data, performed statistical analysis, and visualized the results.</li>
+		<li>Supervised 2 undergraduate students.</li>
+	      </div>
 
-	    <div class="subsubsection" id="Mitochondrial">
-	      <h5>Project: mtDNA Analysis of <i>D. melanogaster</i></h5>
-	    <li>Devised custom pipelines and tools to analyze mitochondrial DNA samples sequenced with NGS.</li>
-	    <li>Built phylogenies using BEAST and neighbor joining methods.</li>
-	    </div>
-	    
-	    <div class="subsubsection" id="Teaching">
-	      <h5>Teaching</i></h5>
-	    <li>Designed syllabi for recitations, picked scientific publications matching students' knowledge.</li>
-	    <li>Applied different methods including active learning.</li>
-	    <li>Prepared and lead discussions, held office hours, wrote 300+ quiz and exam questions, graded exams.</li>
-	    <li>Set up and managed Canvas websites.</li>
+	      <div class="subsubsection" id="Mitochondrial">
+		<h5>Project: mtDNA Analysis of <i>D. melanogaster</i></h5>
+		<li>Devised custom pipelines and tools to analyze mitochondrial DNA samples sequenced with NGS.</li>
+		<li>Built phylogenies using BEAST and neighbor joining methods.</li>
+	      </div>
+	     
+	      <div class="subsubsection" id="Teaching">
+		<h5>Teaching</i></h5>
+		<li>Designed syllabi for recitations, picked scientific publications matching students' knowledge.</li>
+		<li>Applied different methods including active learning.</li>
+		<li>Prepared and lead discussions, held office hours, wrote 300+ quiz and exam questions, graded exams.</li>
+		<li>Set up and managed Canvas websites.</li>
+	      </div>
 	    </div>
 	  </div>
 	</div>
+	<!-- 2) METU -->
+	<div class="subsection" id="RATA-METU">
+	  <div class="dateditem">
+	    <div class="itemdate">2015<hr>2014</div>
+	    <div class="itemtext">
+	      <h4>Research and Teaching Assistant</h4>
+	      <i>Department of Molecular Biology and Genetics, METU</i><br>
+	      <li>Coded and modified simulations, analyzed the efficiency and accuracy of simulations from literature.</li>
+	      <li>Taught 4 different classes in 3 semesters, including recitations and laboratory classes.</li>
+	      <li>Designed a new lab module.</li>
+	      <li>Reviewed a lab manual.</li> 
+	    </div>
+	  </div>
 	</div>
 
-	</div>
-
-
+      <!-- END OF SECTION EXPERIENCE -->
       </div> 
-    </div>
+    <!--END OF LEFT COLUMN -->
+    </div> 
+  <!--END OF PAGE -->
   </div>
  
- 
-  <div class="canvas-container">
-    <div class="grid">
-      <div class="col-l">
+  <div class="page">
+  <!-- BEGINNING OF PAGE -->
+    <div class="col-l">
+    <!-- BEGINNING OF LEFT COLUMN -->
+	
+      <!---
 	<div class="section" id="Skills-2">
-	<div class="subsection" id="Lab Skills">
-	<h3>Lab Skills</h3>
-	<li>Maintaining <i>Drosophila</i> stocks and populations, collecting wild flies, species identification, and manipulating populations.</li>
-	<li>Basic genetic and wetlab techniques.</li>
-	<li>Designing, building, managing, and conducting large scale experiments.</li>
-	</div>
-	<!---
         <h3>Soft Skills</h3>
 	<div class="skillgrid">
 	  <div class="column">
@@ -208,64 +249,56 @@
 	    <li>Humorous</li>
 	  </div>
 	</div>
-	-->
 	</div>
+	-->
 
 	<div class="section" id="Hobbies">
-	<h2>Hobbies</h2>
-	<li>Writing poetry</li>
-	<li>Playing bass guitar</li>
-	<li>Designing and coding electronics projects with Raspberry Pi and Arduino</li>
+	  <h2>Hobbies</h2>
+	  <li>Writing poetry</li>
+	  <li>Playing bass guitar</li>
+	  <li>Designing and coding electronics projects with Raspberry Pi and Arduino</li>
 	</div>
-      </div>
+	<footer>
+	  <i>This document is prepared and compiled with HTML/CSS. The project is licencesd under GNU GPL v3. The code can be found under my github page. (<a href=https://github.com/evolozzy/Resume_CSS>https://github.com/evolozzy/Resume_CSS</a></i>)
+	</footer>
 
-      <div class="col-r">
-	<div class="section">
-	<div class="subsection" id="RATA-METU">
-	<div class="dateditem">
-	  <div class="itemdate">2015<hr>2014</div>
-	  <div class="itemtext">
-	    <h4>Research and Teaching Assistant</h4>
-	    <b>Department of Molecular Biology and Genetics, METU</b><br>
-	    <li>Coded and modified simulations, analyzed the efficiency and accuracy of simulations from literature.</li>
-	    <li>Taught 4 different classes in 3 semesters, including recitations and laboratory classes.</li>
-	    <li>Designed a new lab module.</li>
-	    <li>Reviewed a lab manual.</li> 
-	  </div>
-	</div>
-	</div>
-	</div>
-	<div class="section" id="Honors">
+    <!-- END OF LEFT COLUMN -->
+    </div>
+
+    <div class="col-r">
+    <!-- BEGINNING OF RIGHT COLUMN -->
+
+      <!-- HONORS AND AWARDS -->
+      <div class="section" id="Honors">
 	<h2>Honors and Awards</h2>
 	<li><b>Honorable Mention for the Best Student Talk</b>, (2020), American Naturalist 2020, Pacific Grove, CA</li>
 	<li><b>Peachey Grant for Field Research</b>, (2017, 2019), UPenn, Department of Biology</li>
 	<li><b>Graduate Scholarship of Scientist Education Support Program</b>, (2013), The Scientific and Technological Research Council of Turkey (TUBITAK)</li>
 	<li><b>Undergraduate Scholarship of Scientist Education Support Program</b>, (2007), The Scientific and Technological Research Council of Turkey (TUBITAK)</li>
 	<li><b>METU Honor Roll Achievement</b>, (2008, 2011, 2012)</li>
-	</div>
-
-	<div class="section" id="Outreach">
+      </div>
+      
+      <!-- OUTREACH -->
+      <div class="section" id="Outreach">
+	<!-- BEGINNING OF OUTREACH -->
 	<h2>Outreach and Leadership</h2>
-
 	<div class="subsubsection" id="ContentCreator">
 	  <div class="dateditem">
 	    <div class="itemdate">2022<hr>2021</div>
 	    <div class="itemtext">
-	      <b>Educational content creator</b>
+	      <h4>Educational content creator</h4>
 	  <li>Creating content about major scientific events, environmental crisis, climate change, and philosophy of science including live content, educational clips, and videos in social media, holding live Q&A sessions, explaining scientific papers and process to public.</li>
 	    </div>
 	  </div>
-
-
 	</div>
 
 	<div class="subsubsection" id="GREBE">
 	  <div class="dateditem">
 	    <div class="itemdate">2021<hr>2019</div>
 	    <div class="itemtext">
-	<b>Organizer of Virtual GREBE 2021</b>
-	<li>Organized the annual "Graduate Research in Ecology, Behavior, and Evolution" conference exclusive to Penn, Princeton, Rutgers, Columbia, and Yale grad students.</li>
-	<li>Prepared, hosted, and broadcasted live portion of the conference on Zoom with pre-recorded talks and live Q&A sessions.</li>
+	      <h4>Organizer of Virtual GREBE 2021</h4>
+	      <li>Organized the annual "Graduate Research in Ecology, Behavior, and Evolution" conference exclusive to Penn, Princeton, Rutgers, Columbia, and Yale grad students.</li>
+	      <li>Prepared, hosted, and broadcasted live portion of the conference on Zoom with pre-recorded talks and live Q&A sessions.</li>
 	    </div>
 	  </div>
 	</div>
@@ -275,9 +308,9 @@
 	  <div class="dateditem">
 	    <div class="itemdate">2012<hr>2008</div>
 	    <div class="itemtext">
-	<b>METU Biology and Genetics Student Club</b>
-	<li>Served as officer in Vice President and Treasurer roles.</li> 
-	<li>Organized conferences and public talks by eminent, world-class scientists</li>
+	      <h4>METU Biology and Genetics Student Club</h4>
+	      <li>Served as officer in Vice President and Treasurer roles.</li> 
+	      <li>Organized conferences and public talks by eminent, world-class scientists</li>
 	    </div>
 	  </div>
 	</div>
@@ -286,17 +319,19 @@
 	  <div class="dateditem">
 	    <div class="itemdate">2009<hr>2006</div>
 	    <div class="itemtext">
-	      <b>Peer Educator in UNFPA, “Peer Education on Reproductive Health” project in Turkey </b> 
+	      <h4>Peer Educator in YPEER, UNFPA. “Peer Education on Reproductive Health” project in Turkey </h4> 
 	      <li>Ran several workshops in different cities and universities.</li> 
 	      <li>Selected as “Peer of the Month” in August 2007.</li>
 	    </div>
 	  </div>
 	</div>
-
-	</div>
-
+      <!-- END OF OUTREACH -->
       </div>
+
+    <!-- END OF RIGHT COLUMN -->
     </div>
+
+  <!-- END OF PAGE -->
   </div>
 
 

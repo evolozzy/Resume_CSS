@@ -1,0 +1,146 @@
+
+.page {
+  margin: 0 auto; /* for centering, feel free to use flexbox or some other method*/
+  box-sizing: border-box;
+  padding: 0in; /* controls margins */
+  width: 8.5in;
+  height: 11in;
+  background-color: white;
+  box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0.7);
+}
+
+.header-row{
+  box-sizing: border-box;
+  width:100%;
+  height: 1.05in;
+  background-color: #CCCCCC;
+  padding: 0.35in 0.5in 0in 0.5in;
+  text-align: center;
+}
+
+.letter-box{
+  display: table-cell;
+  box-sizing: border-box;
+  width:100%;
+  height: 9.65in;
+  background-color: white;
+  padding: 0in 0in 0in 0in;
+  vertical-align: middle;
+}
+
+.letter-date{
+  box-sizing: border-box;
+  width:100%;
+  background-color: white;
+  padding: 0in 0.5in 11pt 0.5in;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.recipient{
+  box-sizing: border-box;
+  width:100%;
+  background-color: white;
+  padding: 0in 0.5in 11pt 0.5in;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.letter-body{
+  box-sizing: border-box;
+  width:100%;
+  background-color: white;
+  padding: 0in 0.5in 0in 0.5in;
+  text-align: justify;
+  vertical-align: middle;
+}
+
+.letter-body p{
+  box-sizing: border-box;
+  width:100%;
+  padding: 0in 0in 0in 0in;
+  margin: 0 0 11pt 0;
+  text-align: justify;
+  vertical-align: middle;
+}
+
+p{
+  box-sizing: border-box;
+  width:100%;
+  background-color: white;
+  padding: 0in 0.5in 0.0in 0.5in;
+  text-align: justify;
+  vertical-align: middle;
+}
+
+.signature{
+  box-sizing: border-box;
+  width:100%;
+  background-color: white;
+  padding: 0.0in 0.5in 0in 0.5in;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.footer-row{
+  box-sizing: border-box;
+  width:100%;
+  background-color: #CCCCCC;
+  height: 0.3in;
+  padding: 0.07in 0.5in 0in 0.5in;
+  text-align: center;
+  vertical-align: middle;
+}
+
+body{
+  font-family: 'Source Sans Pro';
+  font-size: 11pt;
+  line-height:1.2;
+}
+
+h1, h2, h3, h4, h5{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  font-size: 24pt;
+  font-variant: small-caps;
+  font-weight: 900;
+  line-height: 0.8em;
+  margin: 0in 0in 0in 0in;
+}
+
+h2 {
+  font-size: 11pt;
+  font-variant: small-caps;
+  font-weight: 400;
+  margin: 0 0 0 0in;
+}
+
+p, li, ul, {
+  font-family: 'Source Sans Pro';
+}
+
+a {
+color: #000;
+text-decoration: none;
+}
+
+
+@media print {
+  html {
+    height: 11in;
+    width: 8.5in;
+    overflow: hidden;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  .canvas-container {
+    width: 100%;
+    box-shadow: none;
+  }
+}
+
